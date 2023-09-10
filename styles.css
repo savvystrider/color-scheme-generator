@@ -15,18 +15,18 @@ body {
 }
 
 .container {
-    width: 75%;
-    max-width: 700px;
+    width: 90%;
+    max-width: 21.875rem;
     margin: 1em auto;
     background-color: #fff;
-    padding: 1em 2em;
-    max-height: 81vh;
+    padding: 0.5em;
 }
 
 form {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
+    gap: 0.5em;
 }
 
 .input-color {
@@ -34,11 +34,11 @@ form {
 }
 
 .color-btn {
-    display: inline-block;
+    display: block;
     cursor: pointer;
-    border: 1px solid rgba(0, 0, 0, 0.5);
     font-size: .8rem;
-    padding: 1em;
+    font-weight: bold;
+    text-decoration: underline;
 }
 
 select {
@@ -49,6 +49,7 @@ select {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
+    column-gap: 0.1em;
 }
 
 .col {
@@ -62,13 +63,12 @@ select {
 }
 
 .output-text {
-    margin: 1em auto;
-    font-size: .9rem;
+    margin: 1em 0.5em 0 0;
+    font-size: .7rem;
     font-weight: bold;
     padding-bottom: .5em;
     border-bottom: 2px dotted rgba(0, 0, 0, 0.5);
-    line-height: 1.5;
-    letter-spacing: .8px;
+    letter-spacing: 0.016rem;
 }
 
 .user-selection {
@@ -78,3 +78,4 @@ select {
 strong {
     letter-spacing: .8px;
 }
+
