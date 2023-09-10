@@ -79,3 +79,39 @@ strong {
     letter-spacing: .8px;
 }
 
+@media screen and (min-width: 40rem) {
+    main {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .container {
+        padding: 1em 2em;
+        width: 100%;
+        max-width: 35rem;
+    }
+
+    form {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 1em;
+    }
+
+    .color-btn {
+        font-size: 1rem;
+    }
+
+    .output-container {
+        column-gap: 1em;
+    }
+
+    .col {
+        min-width: 4em;
+    }
+
+    .output-text {
+        font-size: 1rem;
+    }
+
+}
